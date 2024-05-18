@@ -1,0 +1,14 @@
+p{
+  margin: 0;
+  padding: 0;
+}
+.bill-price{
+  
+  display: flex;
+  
+  gap: 10px;
+}
+input{
+  height: 20px;
+
+}
