@@ -2,13 +2,19 @@
   background-color:  #282c34;
   color: white;
 }
-
-.App {
- 
-  text-align: center;
- 
-   
+.App{
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
+.container{
+  height: 50hw;
+  width: 80vw;
+  display: grid;
+  place-content: center;
+  place-items: center;
+}
+
 
 .App-logo {
   height: 20vmin;
@@ -23,7 +29,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  
   height: 30vh;
   display: flex;
  
@@ -46,10 +52,20 @@
  
    background-color: rgb(21, 145, 208);
 }
+.loading{
+    height: 50hw;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8088992a
+
+}
 .state-Q{
   width:50vw;
    height:0.7rem;
-   margin-left: 30vw;
+   margin-left: 15vw;
+
    background-color: azure;
    border-radius: 5px;
   
@@ -57,13 +73,38 @@
 .result{
   display: flex;
   justify-content: space-between;
+  margin-left: 15vw;
+  width:50vw;
+
 }
 .quiz{
   display:grid
 
 }
 .btn-Answer{
-  margin-bottom:10px
+  height: 2.5rem;
+  margin-bottom:10px;
+  background-color: rgba(223, 226, 11, 0.862);
+  border-radius: 20px;
+}
+
+ .btn-AnswerF{
+  height: 2.5rem;
+  margin-bottom:10px;
+  background-color: rgb(199, 19, 19);
+  border-radius: 20px;
+  margin-left:50px;
+}
+.btn-AnswerR {
+  height: 2.5rem;
+  margin-bottom:10px;
+  background-color: rgb(17, 215, 63);
+  border-radius: 20px;
+  margin-left:50px;
+} 
+.btn-Answer:hover{
+  margin-left:50px;
+  
   
 }
 .footer{
