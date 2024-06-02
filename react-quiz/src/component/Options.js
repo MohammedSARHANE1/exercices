@@ -1,5 +1,5 @@
 function Options({ options, handleAnswer, state,correctOption }) {
-  console.log(correctOption);
+ 
   return (
     <>
       {options

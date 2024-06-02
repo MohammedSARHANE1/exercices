@@ -15,11 +15,7 @@ function TimerComponent({ seconds }) {
           : { ...style, backgroundColor: "red", height: "3rem" }
       }
     >
-      {seconds !== 0 ? (
-        formatTime(seconds)
-      ) : (
-        <p style={{ backgroundColor: "red" }}>Time's up!</p>
-      )}
+      {seconds !== 0 ? formatTime(seconds) : <p>Time's up!</p>}
     </div>
   );
 }
@@ -31,7 +27,7 @@ const style = {
   borderRadius: "5px",
   display: "grid",
   justifyContent: "center",
-   alignItems: "center"
+  alignItems: "center",
 };
 
 export default TimerComponent;

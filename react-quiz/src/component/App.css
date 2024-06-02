@@ -14,8 +14,22 @@
   place-content: center;
   place-items: center;
 }
+.main{
+  display :flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+.btn-start{
+  height: 2.5rem;
+  width: 9rem;
+  margin-bottom:10px;
+  background-color: rgb(19, 160, 199);
+  border-radius: 20px;
 
-
+ 
+}
 .App-logo {
   height: 20vmin;
   pointer-events: none;
@@ -64,7 +78,8 @@
 .state-Q{
   width:50vw;
    height:0.7rem;
-   margin-left: 15vw;
+   margin-left: 10vw;
+   font-family: Georgia, 'Times New Roman', Times, serif;
 
    background-color: azure;
    border-radius: 5px;
@@ -73,12 +88,13 @@
 .result{
   display: flex;
   justify-content: space-between;
-  margin-left: 15vw;
+  margin-left: 10vw;
   width:50vw;
 
 }
 .quiz{
-  display:grid
+  display:grid;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 .btn-Answer{
@@ -86,6 +102,14 @@
   margin-bottom:10px;
   background-color: rgba(223, 226, 11, 0.862);
   border-radius: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 50px;
+  color: #282c34;
+  font-size: 20px;
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
  .btn-AnswerF{
@@ -110,6 +134,14 @@
 .footer{
   display: flex;
   justify-content: space-between;
+}
+.footer>button{
+  height: 2.5rem;
+  width: 5.5rem;
+  border-radius: 20px;
+  background-color: rgb(45, 195, 195);
+  color: #282c34;
+  font-size: 15px;
 }
 @keyframes App-logo-spin {
   from {

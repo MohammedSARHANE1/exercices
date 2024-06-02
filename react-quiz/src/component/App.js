@@ -6,13 +6,14 @@ import Start from './Start';
 function App() {
  
   return (
-    <div className="App">
+    <div className='App'>
       <div className="container">
         <Header />
-        <Main>
-          <Start />
-        </Main>
+      <Main>
+        <Start/>
+      </Main>
       </div>
+    
     </div>
   );
 }

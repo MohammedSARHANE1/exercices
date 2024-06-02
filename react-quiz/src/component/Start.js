@@ -8,13 +8,13 @@ function Start() {
   function handleClick(){
     setStart(()=>!start)
   }
-  console.log(start)
+ 
   return (
     <>
       {!start ? (
         <>
           <h1>Welcome to the Quiz App</h1>
-          <button onClick={()=>handleClick()}>Start Quiz</button>
+          <button className="btn-start" onClick={()=>handleClick()}>Start Quiz</button>
         </>
       ) : (
         <ReactQuiz />
